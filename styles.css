@@ -1,0 +1,46 @@
+/* Variables de color según el Figma */
+:root {
+  --rojo-comic: #e62429;
+  --azul-comic: #004d73;
+  --azul-oscuro: #0f1d2e;
+  --amarillo-comic: #ffcc00;
+  --fondo-crema: #f5f0e6;
+  --borde-negro: #111111;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--azul-oscuro);
+}
+
+/* Colores por sección */
+.seccion-hero {
+  background-color: var(--rojo-comic);
+}
+
+.seccion-proyectos {
+  background-color: var(--azul-comic);
+}
+
+.seccion-historia {
+  background-color: var(--fondo-crema);
+}
+
+/* Bordes estilo cómic (para ir probando el Look & Feel) */
+.card {
+  border-radius: 4px;
+}
+
+.tarjeta-autor {
+  background-color: var(--azul-comic);
+  border: 2px solid var(--borde-negro);
+}
+
+/* Placeholder para la ilustración de Spider-Man */
+.placeholder-imagen {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
